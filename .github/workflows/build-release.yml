@@ -24,8 +24,8 @@ jobs:
         NAME: xiaomi-kernel
       with:
         arch: arm64
-        compiler: proton-clang/master/binutils
-        defconfig: cust_joyeuse_defconfig
+        compiler: proton-clang/master
+        defconfig: joyeuse_defconfig
         image: Image.gz-dtb
 
     - name: Release build
