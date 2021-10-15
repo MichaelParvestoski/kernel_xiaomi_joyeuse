@@ -8,7 +8,8 @@ jobs:
     build:
         runs-on: ubuntu-latest
     steps:
-        -uses: actions/first-interaction@v1.1.0
+        -name: First interaction
+        uses: actions/first-interaction@v1.1.0
         with:
            repo-token: ${{ secrets.GITHUB_TOKEN }}
            pr-message: 'Thank you for submitting your first Pull Request!'
