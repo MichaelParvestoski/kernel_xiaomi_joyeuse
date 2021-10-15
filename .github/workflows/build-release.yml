@@ -2,7 +2,7 @@ name: Build and Release on tag create
 on:
   push:
     branches:
-      - main
+      - android-12
 
 jobs:
   build:
