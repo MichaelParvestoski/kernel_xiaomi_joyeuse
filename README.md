@@ -5,3 +5,4 @@
 * Stock Redmi Note 9 Pro
 * Added support for Android 12
 * Memory **Fusion Technology** added
+* **CRYO** Module Added
