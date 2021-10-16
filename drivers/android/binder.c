@@ -192,6 +192,8 @@ enum binder_stat_types {
 	BINDER_STAT_COUNT
 };
 
+// Stats binded at runtime should be added here
+
 struct binder_stats {
 	atomic_t br[_IOC_NR(BR_FAILED_REPLY) + 1];
 	atomic_t bc[_IOC_NR(BC_REPLY_SG) + 1];
